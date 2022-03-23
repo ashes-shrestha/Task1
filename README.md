@@ -7,8 +7,8 @@ Prerequisite:
 
 **Instructions:**
 1. Clone/Download the repository into your local machine
-2. Open terminal and goto pulled repository directory/folder
-3. Run command
+2. Open terminal and goto the repository directory/folder
+3. Run command:
     
   **For Linux/Mac**
    
@@ -20,6 +20,6 @@ Prerequisite:
    docker run -it --rm --name Task1 -v %cd%:/home/test1 -w /home/test1 php php task1.php
    
 
-   **If command didn't work, replace the <current directory path> with the full directory path of pulled repository directory**
+   **If command didn't work, replace the <directory path> with the full directory path of repository directory**
     
-   docker run -it --rm --name Task1 -v <current directory path>:/home/test1 -w /home/test1 php php task1.php
+   docker run -it --rm --name Task1 -v <directory path>:/home/test1 -w /home/test1 php php task1.php
