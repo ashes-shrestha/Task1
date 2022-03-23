@@ -8,9 +8,11 @@ Instructions:
 3. Run command
     
    For Linux/Mac
+   
    docker run -it --rm --name Task1 -v "$PWD":/home/test1 -w /home/test1 php php task1.php
 
    For Windows
+   
    docker run -it --rm --name Task1 -v %cd%:/home/test1 -w /home/test1 php php task1.php
 
    If command didn't work, replace the <current directory path> with the full directory path of pulled repositorie directory
