@@ -16,4 +16,5 @@ Instructions:
    docker run -it --rm --name Task1 -v %cd%:/home/test1 -w /home/test1 php php task1.php
 
    If command didn't work, replace the <current directory path> with the full directory path of pulled repositorie directory
+    
    docker run -it --rm --name Task1 -v <current directory path>:/home/test1 -w /home/test1 php php task1.php
