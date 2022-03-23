@@ -20,6 +20,6 @@ Prerequisite:
    docker run -it --rm --name Task1 -v %cd%:/home/test1 -w /home/test1 php php task1.php
    
 
-   **If command didn't work, replace the < path > with the full directory path of repository directory**
+   **If command didn't work, replace the "< path >" with the full directory path of repository directory**
     
    docker run -it --rm --name Task1 -v < path >:/home/test1 -w /home/test1 php php task1.php
