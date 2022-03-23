@@ -6,7 +6,7 @@ Prerequisite:
 **Docker**
 
 **Instructions:**
-1. Pull the repository into your local machine
+1. Clone/Download the repository into your local machine
 2. Open terminal and goto pulled repository directory/folder
 3. Run command
     
