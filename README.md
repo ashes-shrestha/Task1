@@ -22,4 +22,4 @@ Prerequisite:
 
    **If command didn't work, replace the <path> with the full directory path of repository directory**
     
-   docker run -it --rm --name Task1 -v <path>:/home/test1 -w /home/test1 php php task1.php
+   docker run -it --rm --name Task1 -v $\gt$path$\lt$:/home/test1 -w /home/test1 php php task1.php
